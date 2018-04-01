@@ -1,0 +1,19 @@
+name: chatcr
+version: 0.1.0
+
+authors:
+  - Pete Jung <pete.y.jung@gmail.com>
+
+targets:
+  chatcr:
+    main: src/chatcr.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  kemal-watcher:
+    github: faustinoaq/kemal-watcher
+
+crystal: 0.24.2
+
+license: MIT
